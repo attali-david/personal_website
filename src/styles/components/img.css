@@ -1,0 +1,8 @@
+.identifier.picture {
+	height: 35vh;
+	width: 43vw;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-image: url("../../assets/images/drawing.jpeg");
+	background-size: 100% 100%;
+}

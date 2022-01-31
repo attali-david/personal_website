@@ -1,0 +1,60 @@
+.nav.elements {
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 2em;
+	max-width: 100%;
+	color: rgb(159, 125, 163);
+}
+
+.portfolio.link {
+	text-decoration: none;
+}
+
+.portfolio.title {
+	text-align: center;
+}
+
+.github {
+	height: 25vh;
+	max-width: 100%;
+}
+
+.battleship {
+	background-image: url("../../assets/images/battleship.jpeg");
+}
+
+.tictactoe {
+	background-image: url("../../assets/images/tictactoe.jpeg");
+}
+
+.weather {
+	background-image: url("../../assets/images/weather.jpeg");
+}
+
+.battleship,
+.tictactoe,
+.weather {
+	background-size: 100% 100%;
+}
+
+.github.title {
+	text-decoration: none;
+}
+
+.lead.contact {
+	width: 45%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 1.5em;
+	font-weight: 700;
+	text-decoration: none;
+	border: 2px solid rgb(249, 174, 88);
+	border-radius: 5%;
+	color: rgb(159, 125, 163);
+	margin-top: 5vh;
+}
+
+.lead.contact.email {
+	border: 0px;
+}

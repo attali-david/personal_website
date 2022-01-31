@@ -1,0 +1,59 @@
+.identifier,
+.description,
+.synopsis,
+.portfolio.link,
+.lead,
+.email {
+	font-family: "Oswald", sans-serif;
+}
+
+.name,
+.career,
+.location {
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 1.5em;
+	font-weight: 700;
+}
+
+.name {
+	font-size: 1.75em;
+}
+
+.career,
+.location {
+	font-size: 1.5em;
+}
+
+.description {
+	width: 75%;
+	margin: 0 auto;
+	text-align: justify;
+	font-weight: 400;
+	font-size: 1.25em;
+	line-height: 1.875em;
+}
+
+.synopsis {
+	text-align: justify;
+}
+
+.lead {
+	text-align: justify;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.lead.text {
+	width: 100%;
+	font-size: 1.5em;
+	line-height: 1.875;
+}
+
+.lead.text:first-letter,
+.description:first-letter,
+.synopsis:first-letter {
+	color: rgb(249, 174, 88);
+	font-size: 1.75em;
+}
