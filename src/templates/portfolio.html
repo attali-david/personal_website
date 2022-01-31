@@ -3,24 +3,85 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Portfolio</title>
 	</head>
 	<body>
-		<header>
-			<nav>
+		<header class="header portfolio">
+			<nav class="nav portfolio">
 				<ul>
-					<li>
-						<a href="./index.html"> About Me </a>
+					<li class="nav list portfolio">
+						<a href="./index.html" class="nav elements"> Home </a>
 					</li>
-					<li>
-						<a href="./resume.html"> Resume </a>
-					</li>
-					<li>
-						<a href="./contact.html"> Contact </a>
+
+					<li class="nav list portfolio">
+						<a href="./contact.html" class="nav elements">
+							Contact
+						</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
-		<h1>This is my portfolio</h1>
+		<div class="container">
+			<h1 class="portfolio title">
+				<a
+					href="https://github.com/pocushoc?tab=repositories"
+					class="portfolio link"
+					>Full Portfolio</a
+				>
+			</h1>
+			<section>
+				<a href="https://github.com/pocushoc/Battleship" class="github">
+					<h2 class="github title battleship"></h2>
+				</a>
+				<p class="synopsis">
+					Battleship ipsum dolor sit amet, consectetur adipiscing
+					elit, sed do eiusmod tempor incididunt ut labore et dolore
+					magna aliqua.
+				</p>
+				<a
+					href="https://github.com/pocushoc/Tic-Tac-Toe"
+					class="github"
+				>
+					<h2 class="github title tictactoe"></h2>
+				</a>
+				<p class="synopsis">
+					Tic Tac Toe ipsum dolor sit amet, consectetur adipiscing
+					elit, sed do eiusmod tempor incididunt ut labore et dolore
+					magna aliqua.
+				</p>
+				<a href="#" class="github">
+					<h2 class="github title weather"></h2>
+				</a>
+				<p class="synopsis">
+					Weather ipsum dolor sit amet, consectetur adipiscing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna
+					aliqua.
+				</p>
+			</section>
+		</div>
+		<footer class="footer">
+			<ul>
+				<li class="footer list">
+					<a
+						href="https://twitter.com/dattali2020"
+						class="footer social"
+						>Twitter</a
+					>
+				</li>
+				<li class="footer list">
+					<a
+						href="https://www.linkedin.com/in/david-attali-2b2305b9/"
+						class="footer social"
+						>LinkedIn</a
+					>
+				</li>
+			</ul>
+		</footer>
 	</body>
 </html>

@@ -1,0 +1,27 @@
+.footer {
+	height: 5vh;
+	max-width: 100%;
+}
+
+.footer ul {
+	max-width: 75%;
+	margin: auto;
+}
+
+.footer li {
+	height: auto;
+}
+
+.footer.list {
+	display: inline-block;
+	padding: 1em;
+}
+
+.footer.social {
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	width: 20vw;
+	margin: 0 auto;
+	text-decoration: none;
+	color: rgb(159, 125, 163);
+}

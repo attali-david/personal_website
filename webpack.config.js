@@ -20,11 +20,6 @@ module.exports = {
 			template: "./src/templates/portfolio.html",
 			filename: "portfolio.html",
 		}),
-		new HtmlWebpackPlugin({
-			title: "Resume",
-			template: "./src/templates/resume.html",
-			filename: "resume.html",
-		}),
 	],
 	output: {
 		filename: "main.js",

@@ -1,0 +1,11 @@
+* {
+	box-sizing: border-box;
+	background: rgb(48, 56, 65);
+	color: white;
+}
+
+.container {
+	width: 75%;
+	margin: auto;
+	display: block;
+}

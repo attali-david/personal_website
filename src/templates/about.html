@@ -3,34 +3,35 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="nav">
         <ul>
-          <li class="nav elements">
-            <a href="./portfolio.html"> Portfolio </a>
+          <li class="nav list">
+            <a href="./portfolio.html" class="nav elements"> Portfolio </a>
           </li>
-          <li class="nav elements">
-            <a href="./resume.html"> Resume </a>
-          </li>
-          <li class="nav elements">
-            <a href="./contact.html"> Contact </a>
+          <li class="nav list">
+            <a href="./contact.html" class="nav elements"> Contact </a>
           </li>
         </ul>
       </nav>
     </header>
     <section class="identifier">
-      <img src="../assets/images/drawing.jpeg" />
-      <h1>David Attali</h1>
-      <span>Austin, TX</span>
-      <ul>
-        <li>Software Engineer</li>
-      </ul>
+      <div class="identifier picture"></div>
+      <h1 class="identifier name">David Attali</h1>
+      <h2 class="identifier career">Software Engineer</h2>
+      <h3 class="identifier location">Austin, TX</h3>
     </section>
-    <section class="description">
-      <p>
+    <section>
+      <p class="description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -40,13 +41,21 @@
         mollit anim id est laborum.
       </p>
     </section>
-    <section class="portfolio">
-      <p>
-        Check out my full portfolio of apps on
-        <a href="https://github.com/pocushoc?tab=repositories">Github</a>
-      </p>
-      <article>Tic Tac Toe</article>
-      <article>Battleship</article>
-    </section>
+    <footer class="footer">
+      <ul>
+        <li class="footer list">
+          <a href="https://twitter.com/dattali2020" class="footer social"
+            >Twitter</a
+          >
+        </li>
+        <li class="footer list">
+          <a
+            href="https://www.linkedin.com/in/david-attali-2b2305b9/"
+            class="footer social"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
